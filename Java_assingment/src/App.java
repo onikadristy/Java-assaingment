@@ -10,7 +10,7 @@ public class App {
         cars.add("Tesla");
         cars.add("BMW");
         cars.add("Renault");
-
+// i want to add ford after kia and remove tesla and put audi in 3rd place
         for (int i = 0; i < cars.size(); i++) {
             System.out.println(cars.get(i));
         }
@@ -22,7 +22,7 @@ public class App {
         cars.set(2, "Audi");
 
         System.out.println("MODIFIED LIST");
-
+// want to print the array 
         for (int i = 0; i < cars.size(); i++) {
             System.out.println(cars.get(i));
         }
