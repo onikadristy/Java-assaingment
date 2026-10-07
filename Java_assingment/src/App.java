@@ -40,6 +40,8 @@ public class App {
          System.out.println("Please Choose one of the cars :");
          String car=in.nextLine();
           System.out.println("You choose :" + car);
+    in.close();
+
 
     }
 }
